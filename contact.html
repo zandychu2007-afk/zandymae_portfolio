@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me | Zandy Mae</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Trebuchet MS", sans-serif;
+        }
+
+        body {
+            background-color: #fff5fa;
+            color: #4b3b42;
+        }
+
+        /* HEADER */
+        header {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 25px 8%;
+            background: rgba(255, 255, 255, 0.75);
+            border-bottom: 1px solid #f1d5e0;
+        }
+
+        header h1 {
+            font-size: 28px;
+            color: #4b3b42;
+        }
+
+        /* NAVIGATION */
+        nav {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            background-color: rgba(255, 145, 253, 0.25);
+            border: 2px dotted #e5a6d3;
+            border-radius: 25px;
+            padding: 8px 14px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #b36b9b;
+            padding: 7px 10px;
+            border-radius: 18px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: white;
+            background-color: #d98abd;
+        }
+
+        .contact {
+            min-height: 85vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 50px 8%;
+        }
+
+        .contact-card {
+            width: 100%;
+            max-width: 650px;
+            padding: 40px;
+            text-align: center;
+            background: white;
+            border: 1px solid #f1d5e0;
+            border-radius: 25px;
+            box-shadow: 0 8px 25px rgba(200, 130, 170, 0.15);
+        }
+
+        .subtitle {
+            color: #c778a5;
+            letter-spacing: 3px;
+            font-size: 13px;
+        }
+
+        .contact-card h2 {
+            color: #b96899;
+            font-size: 36px;
+            margin: 15px 0;
+        }
+
+        .description {
+            color: #806c75;
+            line-height: 1.7;
+            margin-bottom: 25px;
+        }
+
+        .contact-item {
+            display: block;
+            margin: 15px 0;
+            padding: 18px;
+            background: #fff5fa;
+            border: 1px solid #f1d5e0;
+            border-radius: 15px;
+            text-align: left;
+        }
+
+        .contact-item strong {
+            display: block;
+            color: #b96899;
+            margin-bottom: 8px;
+        }
+
+        .contact-item a {
+            color: #806c75;
+            text-decoration: none;
+            overflow-wrap: anywhere;
+        }
+
+        .contact-item a:hover {
+            color: #d477aa;
+            text-decoration: underline;
+        }
+        .back {
+            display: inline-block;
+            margin-top: 40px;
+            padding: 12px 24px;
+            background: #d98abd;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+        }
+
+        .back:hover {
+            background: #b96899;
+        }
+
+        @media (max-width: 700px) {
+            header {
+                flex-direction: column;
+                gap: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1></h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="skill.html">Skills</a>
+            <a href="project.html">Projects</a>
+            <a href="about.html">About Me</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+    </header>
+
+    <section class="contact">
+        <div class="contact-card">
+
+            <p class="subtitle">✦ LET'S CONNECT ✦</p>
+            <h2>Contact Me ♡</h2>
+
+            <p class="description">
+                Thank you for visiting my portfolio!
+                You can contact me through my email
+                or visit my social media profiles.
+            </p>
+
+            <div class="contact-item">
+                <strong>Email Address</strong>
+                <a href="zandychu2007@gmail.com">
+                    zandychu2007@gmail.com                </a>
+            </div>
+
+            <div class="contact-item">
+                <strong>Facebook</strong>
+                <a href="https://www.facebook.com/z4ndymqe.chay"
+                   target="_blank" rel="noopener noreferrer">
+                    Visit my Facebook profile
+                </a>
+            </div>
+
+            <div class="contact-item">
+                <strong>Instagram</strong>
+                <a href="https://www.instagram.com/zandeyyy.16/"
+                   target="_blank" rel="noopener noreferrer">
+                    Visit my Instagram profile
+                </a>
+            </div>
+              <a href="index.html" class="back">← Back to Home</a>
+        </div>
+    </section>
+
+</body>
+</html>

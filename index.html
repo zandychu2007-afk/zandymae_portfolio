@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Trebuchet MS", sans-serif;
+        }
+
+        body {
+            background-color: #fff5fa;
+            color: #4b3b42;
+        }
+
+        /* HEADER */
+        header {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 25px 8%;
+            background: rgba(255, 255, 255, 0.75);
+            border-bottom: 1px solid #f1d5e0;
+        }
+
+        header h1 {
+            font-size: 28px;
+            color: #4b3b42;
+        }
+
+        /* NAVIGATION */
+        nav {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            background-color: rgba(255, 145, 253, 0.25);
+            border: 2px dotted #e5a6d3;
+            border-radius: 25px;
+            padding: 8px 14px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #b36b9b;
+            padding: 7px 10px;
+            border-radius: 18px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: white;
+            background-color: #d98abd;
+        }
+
+        /* HOME */
+        .home {
+            min-height: 85vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 80px;
+            padding: 60px 10%;
+        }
+
+        /* PROFILE */
+        .profile img {
+            width: 280px;
+            height: 280px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 8px solid rgb(250, 202, 210);
+            box-shadow: 0 10px 30px rgba(200, 130, 170, 0.25);
+        }
+
+        /* INTRODUCTION */
+        .intro {
+            max-width: 550px;
+        }
+
+        .welcome {
+            color: #c778a5;
+            font-size: 14px;
+            letter-spacing: 3px;
+            margin-bottom: 15px;
+        }
+
+        .intro h2 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        .intro h2 span {
+            color: #d477aa;
+        }
+
+        .tagline {
+            color: #8e6b7b;
+            font-size: 22px;
+            margin-bottom: 20px;
+        }
+
+        .intro-text {
+            line-height: 1.7;
+        }
+
+        /* BUTTON */
+        .button {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 24px;
+            background: #d98abd;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: 0.3s;
+        }
+
+        .button:hover {
+            background: #b96899;
+            transform: translateY(-3px);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+
+        <h2>⋆｡˚꒰ঌ Zandy Mae ໒꒱˚｡⋆</h2>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="skill.html">Skills</a>
+            <a href="project.html">Projects</a>
+            <a href="about.html">About Me</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+    </header>
+
+    <!-- HOME -->
+    <section class="home" id="home">
+
+        <div class="profile">
+            <img src="profile.jpg" alt="Profile Picture">
+        </div>
+
+        <div class="intro">
+
+            <p class="welcome">✦ WELCOME TO MY SPACE ✦</p>
+
+            <h2>
+                Hi, I'm <span>Zandy Mae</span> ♡
+            </h2>
+
+            <p class="tagline">
+                "Create. Learn. Grow."
+            </p>
+
+            <p class="intro-text">
+                Hello! I am a college student who enjoys learning,
+                creating websites, and exploring new ideas.
+                Welcome to my personal portfolio!
+            </p>
+
+            <a href="about.html" class="button">
+               𑣲⋆ Get to Know Me →
+            </a>
+
+        </div>
+
+    </section>
+
+</body>
+</html>

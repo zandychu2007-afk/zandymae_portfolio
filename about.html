@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | Zandy Mae</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Trebuchet MS", sans-serif;
+        }
+
+        body {
+            background-color: #fff5fa;
+            color: #4b3b42;
+        }
+
+        /* HEADER */
+        header {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 25px 8%;
+            background: rgba(255, 255, 255, 0.75);
+            border-bottom: 1px solid #f1d5e0;
+        }
+
+        header h1 {
+            font-size: 28px;
+            color: #4b3b42;
+        }
+
+        /* NAVIGATION */
+        nav {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            background-color: rgba(255, 145, 253, 0.25);
+            border: 2px dotted #e5a6d3;
+            border-radius: 25px;
+            padding: 8px 14px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #b36b9b;
+            padding: 7px 10px;
+            border-radius: 18px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: white;
+            background-color: #d98abd;
+        }
+
+        .about {
+            min-height: 85vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 50px 8%;
+        }
+
+        .about-card {
+            width: 100%;
+            max-width: 650px;
+            padding: 40px;
+            background: white;
+            border: 1px solid #f1d5e0;
+            border-radius: 25px;
+            box-shadow: 0 8px 25px rgba(200, 130, 170, 0.15);
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #c778a5;
+            font-size: 14px;
+            letter-spacing: 3px;
+            margin-bottom: 12px;
+        }
+
+        .about-card h2 {
+            text-align: center;
+            color: #b96899;
+            font-size: 36px;
+            margin-bottom: 25px;
+        }
+
+        .about-card p {
+            color: #806c75;
+            line-height: 1.8;
+            margin-bottom: 15px;
+        }
+
+        .info {
+            margin-top: 25px;
+            padding: 20px;
+            background: #fff5fa;
+            border-radius: 18px;
+        }
+
+        .info p {
+            margin-bottom: 12px;
+        }
+
+        .info p:last-child {
+            margin-bottom: 0;
+        }
+
+        .info strong {
+            color: #b96899;
+        }
+
+        @media (max-width: 700px) {
+            header {
+                flex-direction: column;
+                gap: 18px;
+            }
+
+            .about-card {
+                padding: 25px;
+            }
+        }
+        li{
+            text-align: auto;
+            margin-left: 30px;
+            margin-top: 3px;
+        }
+
+        .back {
+            display: inline-block;
+            margin-top: 40px;
+            padding: 12px 24px;
+            background: #d98abd;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+        }
+
+        .back:hover {
+            background: #b96899;
+        }
+
+        @media (max-width: 700px) {
+            header {
+                flex-direction: column;
+                gap: 15px;
+            }
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>⋆｡˚꒰ঌ Zandy Mae ໒꒱˚｡⋆</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="skill.html">Skills</a>
+            <a href="project.html">Projects</a>
+            <a href="about.html" class="active">About Me</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="about">
+        <div class="about-card">
+
+            <p class="subtitle">✦ GET TO KNOW ME ✦</p>
+
+            <h2>About Me ♡</h2>
+
+            <p>
+                Hello! I am Zandy Mae Constantino, a student
+                at Datamex College Saint Adaline. I enjoy
+                learning about technology and improving
+                my computer skills.
+            </p>
+
+            <div class="info">
+                <p>
+                    <strong>Course Program:</strong>
+                    ACT (Associate in Computer Technology)
+                </p>
+
+                <p>
+                    <strong>School:</strong>
+                    Datamex College Saint Adaline
+                </p>
+
+                <p>
+                    <ul>
+                    <strong>Hobbies:</strong>
+                        <li>Writing or reading stories</li>
+                        <li>browsing the internet</li>
+                        <li>exploring creative ideas.</li>
+                    </ul>
+                </p>
+
+                <p>
+                    <ul>
+                    <strong>Interests:</strong>
+                    <li>Web design</li>
+                    <li>programming</li>
+                    <li>technology</li>
+                    <li>learning new skills</li>
+                    </ul>
+                </p>
+            </div>
+                <a href="index.html" class="back">← Back to Home</a>
+        </div>
+    </section>
+</body>
+</html>

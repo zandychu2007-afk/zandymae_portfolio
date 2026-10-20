@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Skills</title>
+        <style>
+            * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Trebuchet MS", sans-serif;
+        }
+
+        body {
+            background-color: #fff5fa;
+            color: #4b3b42;
+        }
+
+        /* HEADER */
+        header {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 25px 8%;
+            background: rgba(255, 255, 255, 0.75);
+            border-bottom: 1px solid #f1d5e0;
+        }
+
+        header h1 {
+            font-size: 28px;
+            color: #4b3b42;
+        }
+
+        /* NAVIGATION */
+        nav {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            background-color: rgba(255, 145, 253, 0.25);
+            border: 2px dotted #e5a6d3;
+            border-radius: 25px;
+            padding: 8px 14px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #b36b9b;
+            padding: 7px 10px;
+            border-radius: 18px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: white;
+            background-color: #d98abd;
+        }
+        /* SKILLS */
+
+        .skills {
+            min-height: 85vh;
+            padding: 80px 10%;
+            text-align: center;
+        }
+
+        .small-title {
+            color: #c778a5;
+            font-size: 14px;
+            letter-spacing: 3px;
+        }
+
+        .skills h2 {
+            font-size: 45px;
+            margin: 15px 0 45px;
+        }
+
+        .skills-container {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        .skill-card {
+            width: 220px;
+            padding: 30px 20px;
+            background: white;
+            border: 1px solid #f1d5e0;
+            border-radius: 25px;
+            box-shadow: 0 8px 25px rgba(200, 130, 170, 0.15);
+            transition: 0.3s;
+        }
+
+        .skill-card:hover {
+            transform: translateY(-8px);
+        }
+
+        .icon {
+            font-size: 45px;
+            margin-bottom: 15px;
+        }
+
+        .skill-card h3 {
+            color: #b96899;
+            margin-bottom: 12px;
+        }
+
+        .skill-card p {
+            line-height: 1.5;
+            color: #806c75;
+        }
+
+        .back {
+            display: inline-block;
+            margin-top: 40px;
+            padding: 12px 24px;
+            background: #d98abd;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+        }
+
+        .back:hover {
+            background: #b96899;
+        }
+
+        @media (max-width: 700px) {
+            header {
+                flex-direction: column;
+                gap: 15px;
+            }
+        }   
+        </style>
+    </head>
+    <body>
+
+        <!-- HEADER -->
+    <header>
+
+        <h2>⋆｡˚꒰ঌ Zandy Mae ໒꒱˚｡⋆</h2>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="skill.html.">Skills</a>
+            <a href="project.html">Projects</a>
+            <a href="about.html">About Me</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+    </header>
+
+        <section class="skills" id="skills">
+
+    <p class="skills-title">✦ WHAT I CAN DO ✦</p>
+
+    <h2>My Skills ♡</h2>
+
+    <div class="skills-container">
+
+        <div class="skill-card">
+            <div class="skill-icon">💻</div>
+            <h3>Web Design</h3>
+            <p>
+                Creating simple and aesthetic websites
+                using HTML and CSS.
+            </p>
+        </div>
+
+        <div class="skill-card">
+            <div class="skill-icon">🎨</div>
+            <h3>Creativity</h3>
+            <p>
+                Designing creative layouts, colors,
+                and visual ideas.
+            </p>
+        </div>
+
+        <div class="skill-card">
+            <div class="skill-icon">✍️</div>
+            <h3>Writing</h3>
+            <p>
+                Creating stories, ideas, and
+                written content.
+            </p>
+        </div>
+
+        <div class="skill-card">
+            <div class="skill-icon">📚</div>
+            <h3>Learning</h3>
+            <p>
+                Always learning new skills and
+                improving my knowledge.
+            </p>
+        </div>
+
+        <div class="skill-card">
+            <div class="skill-icon">💭</div>
+            <h3>Problem-Solving</h3>
+            <p>Ability to identify problems, think of possible solutions, and solve basic technical challenges.</p>
+        </div>
+
+    </div>
+        <a href="index.html" class="back">← Back to Home</a>
+</section>
+    </body>
+</html>
